@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.Calculator{
+    width: 400px;
+    height: 500px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+#answer {
+    width: 400px;
+    height: 80px;
+    background-color: gray;
+}
+#display {
+    padding: 384px 318px;
+    text-align: right;
+    height: 350px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    cursor: pointer;
+}
+#eq {
+    width: 160px;
+    background-color: #C1839F;
+    font-size: 40px;
+}
+#ac {
+    background-color: #087E8B;
+}
